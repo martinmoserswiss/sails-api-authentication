@@ -55,6 +55,10 @@ module.exports.policies = {
       '*': 'apiAuth'
   },
 
+  TokenController: {
+    '*': 'apiAuth'
+  },
+
   AuthenticationController : {
     'getToken': true,
   }

@@ -27,3 +27,8 @@ send in postman a new post request to http://localhost:1337/user with json-body:
 
 send in postman a new get request to http://localhost:1337/getToken with
 basicAuth authorization header (username and password)
+
+implement isTokenValid function and add attributes to token model
+implement apiAuth policy
+create unauthorized.js response file
+Update policy config file with the rule for TokenController
