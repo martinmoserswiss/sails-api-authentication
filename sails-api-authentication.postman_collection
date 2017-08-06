@@ -1,0 +1,108 @@
+{
+	"id": "40ff6ba1-9f71-6e6f-d988-bb9a46818a30",
+	"name": "sails-api-authentication",
+	"description": "",
+	"order": [
+		"36299ac5-5015-6195-b2a1-da1ada6b1808",
+		"c84caa37-6112-5583-acea-bb34046573ae",
+		"7e1e389c-a228-7fb5-7b17-71e047f7a8fd"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1502022076958,
+	"owner": "2532987",
+	"public": false,
+	"requests": [
+		{
+			"id": "36299ac5-5015-6195-b2a1-da1ada6b1808",
+			"headers": "x-token: b0e1c0c3-8691-4b79-b936-16a0549a3b2d\n",
+			"headerData": [
+				{
+					"key": "x-token",
+					"value": "b0e1c0c3-8691-4b79-b936-16a0549a3b2d",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:1337/user/1",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "40ff6ba1-9f71-6e6f-d988-bb9a46818a30",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://localhost:1337/user/1",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1502022092248,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": ""
+		},
+		{
+			"id": "7e1e389c-a228-7fb5-7b17-71e047f7a8fd",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:1337/user",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "40ff6ba1-9f71-6e6f-d988-bb9a46818a30",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://localhost:1337/user",
+			"description": "create a new user",
+			"descriptionFormat": "html",
+			"time": 1502022274686,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{ \"name\":\"User1\", \"email\":\"user1@gmail.com\", \"password\":\"123456\" }"
+		},
+		{
+			"id": "c84caa37-6112-5583-acea-bb34046573ae",
+			"headers": "Authorization: Basic dXNlcjFAZ21haWwuY29tOjEyMzQ1Ng==\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Basic dXNlcjFAZ21haWwuY29tOjEyMzQ1Ng==",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:1337/getToken",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1502022312526,
+			"name": "http://localhost:1337/getToken",
+			"description": "",
+			"collectionId": "40ff6ba1-9f71-6e6f-d988-bb9a46818a30",
+			"responses": []
+		}
+	]
+}

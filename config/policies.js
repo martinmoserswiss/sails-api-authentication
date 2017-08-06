@@ -52,7 +52,8 @@ module.exports.policies = {
   // api
 
   UserController : {
-      '*': 'apiAuth'
+      '*': 'apiAuth',
+      'create': true
   },
 
   TokenController: {

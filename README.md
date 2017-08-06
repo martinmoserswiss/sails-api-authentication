@@ -2,6 +2,10 @@
 
 a [Sails](http://sailsjs.org) application
 
+To install inside the project folder:
+npm update
+npm install -g sails
+npm install
 
 
 sails new sails-api-authentication
