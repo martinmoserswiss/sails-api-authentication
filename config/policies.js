@@ -47,5 +47,15 @@ module.exports.policies = {
 		// Apply the `isNiceToAnimals` AND `hasRabbitFood` policies
 		// before letting any users feed our rabbits
 		// feed : ['isNiceToAnimals', 'hasRabbitFood']
-	// }
+	//
+
+  // api
+
+  UserController : {
+      '*': 'apiAuth'
+  },
+
+  AuthenticationController : {
+    'getToken': true,
+  }
 };
