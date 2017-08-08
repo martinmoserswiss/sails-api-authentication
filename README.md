@@ -1,3 +1,5 @@
+> Note: The project is not yet finish. Follow the project if you like to see updates.
+
 # Sails API authentication #
 
 a [Sails](http://sailsjs.org) application
