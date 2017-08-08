@@ -14,13 +14,15 @@ sails generate api user
 sails generate api token
 
 set migrate: 'safe' in config/models.js
-Create AuthenticationController
-Create apiAuth policy
+Add action and attributes to Token model.
+Create AuthenticationController add implementation
+Create apiAuth policy and add implementation
+Create unauthorized response and add implementation
 Add policies to the config/policies.js file
 Add route to the config/routes.js file
 Add node-uuid to the dependencies in package.json file.
 
-run: npm imstall and then sails lift
+run: npm install and then sails lift
 
 send in postman a new post request to http://localhost:1337/user with json-body:
 {
